@@ -1,0 +1,28 @@
+{
+    "name": "vitalex/strategy-pattern",
+    "description": "Strategy Pattern coding example",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alessandro Vitale",
+            "email": "vitalex975@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "HeroApp\\": "HeroExample/src/",
+            "PlayersApp\\": "PlayersExample/src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
