@@ -27,7 +27,7 @@ Purtroppo il cavaliere non può nuotare, perchè il suo cavallo non può entrare
 
 In questo caso, si potrebbe scegliere di rendere esplicito il fatto che tale implementazione del metodo non faccia effettivamente nulla, secondo l'idea che "non nuotare" può essere visto come un particolare modo di nuotare, ovvero: il comportamento del cavaliere nel caso in cui gli sia richiesto di nuotare è "non nuotare".
 
-Inoltre, questi ha anche un proprio modo di camminare (è a cavallo), per cui sarà necessario fare l'overoload del metodo `walk()`. 
+Inoltre, questi ha anche un proprio modo di camminare (è a cavallo), per cui sarà necessario fare l'overload del metodo `walk()`. 
 
 Ed ecco presentarsi una nuova richiesta: introdurre un nuovo personaggio, **il centauro**, che ha anche lui un particolare modo di camminare, diverso dal default, ma identico a quello del cavaliere.
 

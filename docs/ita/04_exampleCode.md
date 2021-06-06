@@ -39,7 +39,7 @@ Il passo successivo è quindi quello di "comporre" l'istanza della classe che ra
 Ecco che la scelta delle strategie definisce, di fatto, il tipo di personaggio, che non necessiterà quindi di una propria classe. "Cavaliere" sarà quindi un'oggetto di tipo Hero, con un certo set di strategie a corredo.
 
 Ad esempio, creare un mago significa istanziare una classe Hero con le strategie BipedWalkingStrategy, BipedRunningStrategy, FloatingSwimmingStrategy e MagicFightingStrategy.
-mentre creare un cavaliere, significa istanziare la stessa classe Hero con le strategie QuadrupedWalkingStrategy, QuadrupedRunningStrategy, NoSwimmingStrategy, SwordFightingStrategy
+Creare un cavaliere, significa istanziare la stessa classe Hero con le strategie QuadrupedWalkingStrategy, QuadrupedRunningStrategy, NoSwimmingStrategy, SwordFightingStrategy
 
 **[Un riepilogo dei nostri eroi]**
 
@@ -153,7 +153,7 @@ Vorrei spendere ancora qualche parola sull'importanza che ricopre, nella program
 
 Nel codice di esempio, le interfacce che rappresentano le famiglie di comportamento nei singoli ambiti, vengono definite "strategie", e non solo in onore dello strategy pattern.
 
-La loro implementazione concreta, infatti, viene assegnata a varibili di istanza nominate "behavior". Ne consegue che, leggendo una riga di codice come questa (tratta dal costrutture della classe `Hero`):
+La loro implementazione concreta, infatti, viene assegnata a varibili di istanza nominate "behavior". Ne consegue che, leggendo una riga di codice come questa (tratta dal costruttore della classe `Hero`):
 ```php
 $this->swimBehavior = $swimmingStrategy;
 ```
