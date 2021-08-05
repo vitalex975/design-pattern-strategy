@@ -5,7 +5,7 @@
 > "Strategy Pattern defines a family of algorithms, encapsulates each one and make them interchangeable.
 Strategy let the algorithms vary independently by the client which is using them."
 
-## Insights (TODO: translate!)
+## Insights
 
 The Strategy Pattern is probably the simplest of the patterns.
 
