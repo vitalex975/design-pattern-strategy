@@ -163,7 +163,7 @@ Scrivere codice in modo che, rileggendolo, mi racconti una storia, è un'abitudi
 All'inizio mi sembrava inutile e artificioso utilizzare lunghi e complessi nomi per variabili e classi, quando `$i` e `$obj` è più che sufficiente all'interprete, ma forzandomi a farlo per qualche tempo ho capito che è tutt'altro che un puro esercizio di stile.
 
 Dare il giusto nome alle cose, ti obbliga a ragionare sui confini di quelle stesse cose, a catalogare, differenziare, organizzare e dare il giusto taglio al pezzo di codice che stai scrivendo.
-Ad esempio, quando una classe o un metodo sono difficili da descrivere (e quindi nominare) con poche parole, è normalmente un chiaro segnale che si sta cercando di mettere insieme troppe cose nella stessa porzione di codice, e che si sta probabilmente violando il principio di "single responsability".
+Ad esempio, quando una classe o un metodo sono difficili da descrivere (e quindi nominare) con poche parole, è normalmente un chiaro segnale che si sta cercando di mettere insieme troppe cose nella stessa porzione di codice, e che si sta probabilmente violando il principio di "single responsibility".
 
 Inoltre, avere dei nomi coerenti, organizzati in maniera consistente, aiuta molto nella comprensione del codice, il che è un bel vantaggio ogni qualvolta qualcuno si unisca al team per dare il proprio contributo, ed è esso stesso un buon modo per "validare" la qualità del ragionamento che sottende al codice scritto.
 
